@@ -1,0 +1,20 @@
+﻿<Window x:Class="Browser_.NET.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Browser_.NET"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FF333333">
+    <Grid Height="NaN" Margin="0,0,0,363">
+        <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Margin="96,0,0,0" Width="NaN">
+        </Border>
+        <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Height="NaN" Margin="0,71,704,-360" Width="NaN"/>
+        <Border BorderBrush="Black" Background="#FF252525" BorderThickness="1" Margin="0,0,704,0" Width="NaN">
+            <Label Content="BROWSER" Height="NaN" Width="NaN" Foreground="#FFF9F8F8" Margin="12,12,5,5"/>
+
+        </Border>
+
+
+    </Grid>
+</Window>
