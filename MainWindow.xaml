@@ -11,7 +11,7 @@
         </Border>
         <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Height="NaN" Margin="0,71,704,-360" Width="NaN">
             <ListBox Margin="0,15,0,15" d:LayoutOverrides="Width, Height" VerticalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="Transparent" >
-                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="Show Files" Height="50" Width="80" Click="Button_Click"/>
                 <Button Content="Button" Height="50" Width="80"/>
                 <Button Content="Button" Height="50" Width="80"/>
                 <Button Content="Button" Height="50" Width="80"/>
@@ -25,9 +25,34 @@
 
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" Height="NaN" Margin="101,76,0,-360" Width="NaN">
-            <ItemsControl>
-                
-            </ItemsControl>
+            <Grid Margin="10">
+                <DataGrid Name="BrowserFiles" AutoGenerateColumns="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Name" Binding="{Binding Title}"/>
+                    </DataGrid.Columns>
+                    <DataGrid.RowDetailsTemplate>
+                        <DataTemplate>
+                            <DockPanel Background="GhostWhite">
+                                <Image DockPanel.Dock="Left" Source="{Binding ImageUrl}" Height="64" Width="64" Margin="5"/>
+                                <Grid Margin="0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="{Binding Title}" Grid.Column="1" />
+                                    <TextBlock Text="{Binding LastModified}" Grid.Column="1" Grid.Row="1" />
+                                </Grid>
+                            </DockPanel>
+                        </DataTemplate>
+                    </DataGrid.RowDetailsTemplate>
+                </DataGrid>
+            </Grid>
+            <!--<ItemsControl ItemsSource="{Binding FileCollection}"></ItemsControl>-->
         </Border>
 
 

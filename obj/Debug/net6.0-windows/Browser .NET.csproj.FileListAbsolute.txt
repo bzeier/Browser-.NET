@@ -1,0 +1,21 @@
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\bin\Debug\net6.0-windows\Browser .NET.exe
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\bin\Debug\net6.0-windows\Browser .NET.deps.json
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\bin\Debug\net6.0-windows\Browser .NET.runtimeconfig.json
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\bin\Debug\net6.0-windows\Browser .NET.dll
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\bin\Debug\net6.0-windows\Browser .NET.pdb
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.csproj.AssemblyReference.cache
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET_MarkupCompile.cache
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET_MarkupCompile.lref
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.g.resources
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.AssemblyInfoInputs.cache
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.AssemblyInfo.cs
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.csproj.CoreCompileInputs.cache
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.dll
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\refint\Browser .NET.dll
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.pdb
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\Browser .NET.genruntimeconfig.cache
+C:\Users\Brand\source\repos\Browser .NET\Browser .NET\obj\Debug\net6.0-windows\ref\Browser .NET.dll
