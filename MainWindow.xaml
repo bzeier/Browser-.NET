@@ -9,10 +9,25 @@
     <Grid Height="NaN" Margin="0,0,0,363">
         <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Margin="96,0,0,0" Width="NaN">
         </Border>
-        <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Height="NaN" Margin="0,71,704,-360" Width="NaN"/>
+        <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Height="NaN" Margin="0,71,704,-360" Width="NaN">
+            <ListBox Margin="0,15,0,15" d:LayoutOverrides="Width, Height" VerticalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="Transparent" >
+                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="Button" Height="50" Width="80"/>
+
+            </ListBox>
+        </Border>
         <Border BorderBrush="Black" Background="#FF252525" BorderThickness="1" Margin="0,0,704,0" Width="NaN">
             <Label Content="BROWSER" Height="NaN" Width="NaN" Foreground="#FFF9F8F8" Margin="12,12,5,5"/>
 
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Height="NaN" Margin="101,76,0,-360" Width="NaN">
+            <ItemsControl>
+                
+            </ItemsControl>
         </Border>
 
 
