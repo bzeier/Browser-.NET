@@ -30,6 +30,7 @@ namespace Browser_.NET
             Manager.CurrentBrowserFiles.Add(new BrowserFile("fl studio project 3", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
             Manager.CurrentBrowserFiles.Add(new BrowserFile("asdasd", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
             Manager.CurrentBrowserFiles.Add(new BrowserFile("wqeqwe dsaads", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
+            Manager.GetFiles(@"C:\fl files");
             BrowserFiles.ItemsSource = Manager.CurrentBrowserFiles;
         }
 
