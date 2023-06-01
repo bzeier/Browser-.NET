@@ -24,18 +24,29 @@ namespace Browser_.NET
         public MainWindow()
         {
             InitializeComponent();
-            List<BrowserFile> browserFiles = new List<BrowserFile>();
-            Manager.CurrentBrowserFiles.Add(new BrowserFile("fl studio project 1", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
-            Manager.CurrentBrowserFiles.Add(new BrowserFile("fl studio project 2", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
-            Manager.CurrentBrowserFiles.Add(new BrowserFile("fl studio project 3", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
-            Manager.CurrentBrowserFiles.Add(new BrowserFile("asdasd", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
-            Manager.CurrentBrowserFiles.Add(new BrowserFile("wqeqwe dsaads", "20-20-2023", "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0dfca4fd-eeaf-48f3-9627-155ab37b2416/dcrcrhr-dd612dc8-b124-4ec9-8f4d-7c45aaf6f32f.png"));
-            Manager.GetFiles(@"C:\fl files");
+            string[] types = { "" };
+            Manager.GetFiles(@"C:\fl files",types, true);
             BrowserFiles.ItemsSource = Manager.CurrentBrowserFiles;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string[] types = { "" };
+            Manager.GetFiles(@"C:\fl files",types, true);
+            BrowserFiles.ItemsSource = Manager.CurrentBrowserFiles;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string[] types = { "mp3", "wav", "ogg" };
+            Manager.GetFiles(@"C:\fl files", types, false);
+            BrowserFiles.ItemsSource = Manager.CurrentBrowserFiles;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            string[] types = { "jpg", "png", "bmp" };
+            Manager.GetFiles(@"C:\fl files", types, false);
             BrowserFiles.ItemsSource = Manager.CurrentBrowserFiles;
         }
     }

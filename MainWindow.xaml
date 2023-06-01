@@ -11,12 +11,10 @@
         </Border>
         <Border BorderBrush="Black" Background="#FF252525" BorderThickness="0" Height="NaN" Margin="0,71,704,-360" Width="NaN">
             <ListBox Margin="0,15,0,15" d:LayoutOverrides="Width, Height" VerticalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="Transparent" >
-                <Button Content="Show Files" Height="50" Width="80" Click="Button_Click"/>
-                <Button Content="Button" Height="50" Width="80"/>
-                <Button Content="Button" Height="50" Width="80"/>
-                <Button Content="Button" Height="50" Width="80"/>
-                <Button Content="Button" Height="50" Width="80"/>
-                <Button Content="Button" Height="50" Width="80"/>
+                <Button Content="ALL" Height="50" Width="80" Click="Button_Click"/>
+                <Button Content="SOUNDS" Height="50" Width="80" Click="Button_Click_1"/>
+                <Button Content="IMAGES" Height="50" Width="80" Click="Button_Click_2"/>
+                <Button Content="TEXT FILES" Height="50" Width="80"/>
 
             </ListBox>
         </Border>
